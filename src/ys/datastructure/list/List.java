@@ -1,6 +1,6 @@
 package ys.datastructure.list;
 
-public interface LinkedList {
+public interface List {
 
     public void addHead(Object obj);
 
@@ -13,4 +13,5 @@ public interface LinkedList {
     public int size();
 
     public Object get(int index);
+
 }
